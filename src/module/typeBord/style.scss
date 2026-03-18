@@ -1,0 +1,16 @@
+.type-icons {
+  display: flex;
+  flex-direction: column; // empilha verticalmente
+  gap: 5px;           
+
+  .typeImage{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+  }
+  .typeSubImage {
+    width: 70px;
+    height: 30px;
+    object-fit: contain;
+  }
+}

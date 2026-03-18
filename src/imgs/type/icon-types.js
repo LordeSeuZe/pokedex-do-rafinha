@@ -17,7 +17,7 @@ import bug from "./Type_bug.webp";
 import ghost from "./Type_Ghost.webp";
 import steel from "./Type_Steel.webp";
 
-const types = {
+const Types = {
   fire,
   water,
   grass,
@@ -38,7 +38,7 @@ const types = {
   steel
 }
 
-export default types
+export default Types;
 
 
 
