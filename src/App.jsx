@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 
 import './App.css'
 import aberta from "../src/imgs/pokebola-aberta.png";
+import TypeBord from './module/TypeBord';
 
 function App() {
   const [pokemon, setPokemon] = useState("")
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <>
+      <TypeBord/>
       <h1>Buscar Pokemon</h1>
       <input
         type="text"
